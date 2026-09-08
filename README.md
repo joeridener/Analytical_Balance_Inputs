@@ -4,12 +4,18 @@ Program Output:
 18:01:01.900 [main] INFO net.business.logic.www.SerialReader -- 
 18:01:01.904 [main] INFO net.business.logic.www.SerialReader -- COM Port Open and Ready...
 18:01:01.904 [main] INFO net.business.logic.www.SerialReader -- 
+
 ---- METTLER TOLEDO ----
+
        0.00 g
-       2.14 g
-       0.00 g
-       4.79 g
-      -2.13 g
+       
+       2.14 g //calibration
+       
+       0.00 g //calibration
+       
+       4.79 g //actual weight of sample
+       
+      -2.13 g //after wight boat was removed reflecting calibrated starting point
 
       A volume of roughly 2 mL gives a density of 2.52 and consistent with the density of quartz (a little low). Which broken shards of quartz is the sample that is examined.
 
